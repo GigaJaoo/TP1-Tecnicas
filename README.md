@@ -153,9 +153,23 @@ Por fim, as classes incluidas na categoria sprites são responsáveis pelas spri
 
 # Análise de algumas Classes
 
-## Classe X
+## Classe Player -  Characters
 
-## Classe Y
+A classe player é responsável pelo personagem Pete, que é controlado pelo jogador. A classe contem os atributos de Pete, o seu construtor e os vários metodos, estando estes 3 orgnazidos por esta ordem. Os atributos estão divididos em vários grupos, atráves de comentários, como por exemplo a sua vida pertencente ao grupo HP, o número de moedas que o jogador possui pertencente ao grupo Coins, etc. Possui um único construtor organizando os seus atributos e os respetivos valores também através das linhas de documentário. Por fim, a classe possui vários metodos, alguns utilizados para atualizar o estado do jogador ao longo do jogo, caso dos metodos Update e UpdateFrameList, e ainda alguns metodos relativos às proprias mecanicas do jogo, como ataques e movimentos. 
+
+As restantes classes pertencentes à categoria Charecters estão organizadas da mesma maneira que a classe Player, possuindo atributos organizados por categorias, construtor e métodos utilizados na atualização ao longo do jogo e nas suas mecânicas.
+
+## Classes Managers
+
+As classes Managers, como o nome indica, são responsáveis pela gestão de vários elementos do jogo em si. É através destas várias classes que os elementos são organizados e distribuidos no carremento de um save, são guardados em saves quando é guardado o jogo e são também inicializados ou reiniciados na criação de um novo jogo. Com estas classes, obtem-se maior facilidade na organização dos metodos responsáveis por esta gestão dos vários elementos do jogo.
+
+## Classes Objects
+
+As classes Objects são responsáveis pela criação e atualização dos varios objetos utilizados durante o jogo. Estes elementos incluem itens do jogo, como moedas, objetos fisicos com os quais o jogador interage e projeteis. Nesta categoria de classes, estão ainda incluidos objetos com os quais o jogador não interage diretamente, mas fazem parte da jogabilidade, como checkpoints, mapa, hud. Estas classes estão organizadas da mesma maneira que as anteriores, ordenadas por atributos (estando estes divididos por categorias, com linhas de comentário a definir cada uma), contrutor(es) e métodos. 
+
+# Análise Geral do Código
+
+Todo o código do jogo foi organizado através de uma estrutura bem definida. As várias classes estão organizadas em grupos nas quais é possível assinalar pontos comuns entre as mesmas. Dentro de cada classe é evidente um método de organização comum, organizando os atributos, contrutores e métodos por esta mesma ordem. Os atríbutos referentes a cada classe estão ainda subdivididos em categorias, através de linhas de comentário. Cada classe possuí os seus métodos, alguns responsáveis pelas suas mecânicas do jogo, nomeadamente nas categoria de classes Charecters, e métodos responsáveis pela atualização dos vários elementos do jogo no decorrer do mesmo, sendo isto comum à maioria das classes e à maioria das categorias. 
 
 # Conclusão 
 
