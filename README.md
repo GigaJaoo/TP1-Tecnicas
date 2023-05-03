@@ -136,3 +136,17 @@ As classes scenes são maioritariamente classes responsáveis por desenhar os el
 -> SceneTitle;
 
 -> SceneTitleOptionsHelper;
+
+## Sprites
+
+Por fim, as classes incluidas na categoria sprites são responsáveis pelas sprites do jogador e dos varios elementos do jogo (outros personagens, itens, objetos) e pelo comporamento que estes têm quando interagem uns com os outros, como na sua sobreposição, por exemplo. Aqui encontramos as seguintes classes:
+
+-> AnimatedSprite;
+
+-> CharacterSprite;
+
+-> FrameInfo;
+
+-> FramesList;
+
+-> SpriteCollider;
