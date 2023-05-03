@@ -150,3 +150,19 @@ Por fim, as classes incluidas na categoria sprites são responsáveis pelas spri
 -> FramesList;
 
 -> SpriteCollider;
+
+# Análise de algumas Classes
+
+## Classe X
+
+## Classe Y
+
+# Conclusão 
+
+Esta proposta de trabalho revelou-se uma ferramenta bastante útil no desenvolvimento das capacidades de programação de jogos, sublinhando a boa organização de todo o código como uma competência fundamental na área da programação de videojogos. Podemos facilmente concluir que a organização das várias classes em categorias, a divisão do código de cada classe em partes com objetivos diferentes e a documentação do mesmo, atráves de comentários, foram ferramentas fundamentais para a criação organizada deste jogo e as mesmas são fulcrais no desenvolvimento tanto de videojogos de grande dimensão como até nos mais básicos.
+
+# Bibliografia
+
+Link do repositório original do jogo:
+
+https://github.com/rafaelalmeidatk/Super-Pete-The-Pirate
