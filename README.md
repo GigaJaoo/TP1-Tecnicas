@@ -4,9 +4,9 @@ Trabalho Prático 1, no âmbito da unidade curricular Técnicas de Desenvolvimen
 Realizado por João Miguel Pereira - a24254
 
 # Introdução
-No âmbito da unidade curricular de Técnicas de Desenvolvimento de VideoJogos, foi proposto um trabalho que visava a análise de um jogo criado em monogame, do seu código e organização. Em resposta a esta proposta, o jogo que escolhi analisar foi o "Super Pete the Pirate". Neste jogo controlamos o gato Pete, um capitão pirata. Numa das suas viagens, Pete vê o seu navio ser saqueado por outros piratas quando atravessa um nevoeiro intenso. No meio do saque, os piratas levam algo muito importante para Pete, o seu chapéu. Após este golpe, Pete é expulso do seu navio e procura reaver o seu chapéu dos piratas que o roubaram.
+No âmbito da unidade curricular de Técnicas de Desenvolvimento de VideoJogos, foi proposto um trabalho que visava a análise de um jogo criado em monogame, do seu código e organização. Em resposta a esta proposta, o jogo que escolhi analisar foi o "Super Pete the Pirate", criado por Rafael Almeida. Neste jogo controlamos o gato Pete, um capitão pirata. Numa das suas viagens, Pete vê o seu navio ser saqueado por outros piratas quando atravessa um nevoeiro intenso. No meio do saque, os piratas levam algo muito importante para Pete, o seu chapéu. Após este golpe, Pete é expulso do seu navio e procura reaver o seu chapéu dos piratas que o roubaram.
 
-# Estrutura
+# Estrutura do código
 Este jogo contem várias classes, divididas em grupos:
 
 -> Classes Principais;
@@ -19,8 +19,6 @@ Este jogo contem várias classes, divididas em grupos:
 
 -> Objects;
 
--> Properties;
-
 -> Scenes;
 
 -> Sprites;
@@ -28,3 +26,113 @@ Este jogo contem várias classes, divididas em grupos:
 # Classes
 
 ## Principais
+
+As classes principais deste jogo são as classes GameMain e Program, responsáveis pelo funcionamento do jogo.
+
+## Characters
+
+As classes das characters são responsáveis pelos personagens do jogo, nos quais estão incluidos as seguintes:
+
+-> Boss;
+
+-> CharacterBase;
+
+-> Enemy;
+
+-> Mole;
+
+-> Parrot;
+
+-> Player;
+
+-> SniperPig;
+
+-> TurtleWheel;
+
+## Extensions
+
+As extensions são classes com poucas linhas de código, nas quais são gerados valores utilizados no jogo. Estas classes incluem as seguintes:
+
+-> ColorUtil;
+
+-> MathUtil;
+
+-> RandomExtensions;
+
+-> RectangleExtensions;
+
+-> SpriteBatchExtensions;
+
+-> Util;
+
+-> Vector2Extensions;
+
+## Managers
+
+As classes managers, como o nome indica, são responsáveis pela gestãos de certos elementos do jogo. As classes managers são as seguintes:
+
+-> IconsManager;
+
+-> ImageManager;
+
+-> InputManager;
+
+-> ParticleManager;
+
+-> ParticleState;
+
+-> PlayerManager;
+
+-> SavesManager;
+
+-> SceneManager;
+
+-> SettingsManager;
+
+-> SoundManager;
+
+## Objects
+
+Nas classes objects encontramos classes responsáveis por objetos do jogo, como por exemplo objetos com os quais o jogador interage, fisicas de objetos, o hud do proprio jogo, checkpoints e o mapa. As classes enquadradas nesta categoria são as seguintes:
+
+-> GameCannon;
+
+-> GameCheckpoints;
+
+-> GameCoin;
+
+-> GameHud;
+
+-> GameMap;
+
+-> GameProjectile;
+
+-> GameShop;
+
+-> PhysicalObject;
+
+## Scenes
+
+As classes scenes são maioritariamente classes responsáveis por desenhar os elementos visuais do jogo no ecrã, como o mapa, o background, os itens. Esta categoria inclui as seguintes classes:
+
+-> SceneBase;
+
+-> SceneCredit;
+
+-> SceneIntro;
+
+-> SceneMap;
+
+-> SceneMapBackgroundHelper;
+
+-> SceneMapPauseHelper;
+
+-> SceneMapSCHelper;
+
+-> SceneSaves;
+
+-> SceneStageSelect;
+
+-> SceneTitle;
+
+-> SceneTitleOptionsHelper;
